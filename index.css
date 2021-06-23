@@ -1,0 +1,158 @@
+html{
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+   font-size: 100%;
+    font-size: 100%;
+    
+}
+body{
+    margin: 0;
+    
+}
+h1{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    font:bold;
+}
+.pic
+{
+
+   position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+.pic img{
+    border: 2px solid white;
+}
+.discription{
+    position: relative;
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    width:90vh; 
+    height: 20vw;
+    color:black;
+     background-color: yellow; 
+    padding: 0;
+    margin: 5px auto;
+    border:2px solid white;
+
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.follow {
+    position: relative;
+    padding:0;
+    margin: 5px;
+    display:flex;
+    justify-content:center;
+    background-color:white;
+    color:black; 
+   border:2px solid green;
+   position: relative;
+    width: 50%;
+    
+}
+.follow p{
+    
+    width: 140px;
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+
+}
+a:active{
+    color:rgb(17, 10, 6);
+}
+.follow img{
+    
+    display: flex;
+    width: 50px
+} 
+@media screen and (min-width:650px) and (max-width:810px)
+{
+    .discription{
+        width:50vh;
+        height:35vw;
+    }
+}
+@media screen and (min-width:510px) and (max-width:649px) 
+ {
+    .discription{
+        width:50vh;
+        height:40vw;
+    }
+} 
+@media screen and (min-width:412px) and (max-width:509px) 
+{
+    .pic{
+        width:55vh;
+    }
+    .discription{
+        width: 50vh;
+        height: 50vw;
+    }
+} 
+@media screen and (min-width:340px) and (max-width:411px) 
+{
+    .pic{
+        width:55vh;
+        flex-wrap: wrap;
+    }
+       .discription{
+           font-size:0.9rem;
+        width:40vh;
+        height:60vw;
+    }
+    .follow p {
+        font-size: 0.9rem;
+    }
+    .follow img{
+        width: 35px
+    } 
+}
+@media screen and (min-width:290px) and (max-width:339px)
+{
+    .pic{
+        width:40vh;
+    }
+    .discription{
+        font-size:0.8rem;
+        width:20vh;
+        height:100vw;
+     }
+     .follow p {
+        font-size: 0.8rem;
+    }
+    .follow img{
+         width: 25px
+    } 
+}
+@media  screen and (min-width:199px) and (max-width:280px)
+{
+    .pic{
+        width:20vh;
+    }
+    .discription{
+        font-size:0.7rem;
+        width:20vh;
+        height:120vw;
+     }
+     .follow p {
+        font-size: 0.7rem;
+    }
+    .follow img{
+         width: 25px
+    } 
+}
+
+    
